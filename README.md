@@ -25,7 +25,11 @@ You can run a live version of the docs server with:
 This app embraces Behavior Driven development. Specs are written in
 RSpec.
 
+The test suite can be run with `bin/rspec spec` or you can run a
+continouus testing service with `bin/guard`.
+
 This app uses FactoryGirl instead of fixtures.
+
 
 Guidelines
 - Test public methods.

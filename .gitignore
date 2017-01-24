@@ -19,3 +19,8 @@
 # Ignore YARD generated documentation
 /doc
 /.yardoc
+
+# Ignore local configuration
+.env
+!.env.example
+.env.*
